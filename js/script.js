@@ -40,7 +40,7 @@ function displayBookmark(list){
         cartoona +=`<tr>
                  <td> ${i+1}</td>
                  <td> ${list[i].name} </td>
-                 <td> <a href="${list[i].url}" target="_blank"> <button class="btn px-3" style="background-color:#9eb23b; color:#fff"> visit </button> </a> </td>
+                 <td> <a href="https://${list[i].url}" target="_blank"> <button class="btn px-3" style="background-color:#9eb23b; color:#fff"> visit </button> </a> </td>
                  <td> <button onclick="deleteBookMark(${i})" class="btn btn-danger"> delete </button> </td>                
                 </tr>
         `    
