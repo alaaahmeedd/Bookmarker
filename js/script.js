@@ -15,7 +15,7 @@ if(localStorage.getItem('bookmarks') !=null){
 
 addBtn.addEventListener('click',function(){
     if (
-        siteNameInput.classList.contains("is-valid") &&siteNameInput.classList.contains("is-valid")
+        siteNameInput.classList.contains("is-valid") && siteUrlInput.classList.contains("is-valid")
       ) {
 
           var bookMark={
@@ -29,7 +29,7 @@ addBtn.addEventListener('click',function(){
           displayBookmark(bookMarksList);
           clearForm();
       }
-      else{
+    else{
           alert('BookMark invalid')
       }
       })
